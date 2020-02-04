@@ -1,6 +1,7 @@
 # dotfiles
 
 these are various configuration files.
+
 - i3 config file
 - bashrc
 - bash\_aliases
@@ -13,4 +14,3 @@ mkdir ~/stow && cd ~/stow
 git clone https://github.com/ludwhe/dotfiles.git
 stow dotfiles
 ```
-
