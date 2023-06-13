@@ -10,12 +10,12 @@
 	ci = commit
 	cm = commit -m
 	co = checkout
-    lg = !git log --pretty=format:\"%C(magenta)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) [%an]\" --abbrev-commit -30
+        lg = !git log --pretty=format:\"%C(magenta)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) [%an]\" --abbrev-commit -30
 	rb = rebase
 	st = status
 	p = push
 [credential]
-    helper = /usr/lib/git-core/git-credential-libsecret
+        helper = /usr/lib/git-core/git-credential-libsecret
 [help]
 	autocorrect = 1
 [rerere]
